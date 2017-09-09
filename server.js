@@ -3,8 +3,8 @@ var request = require('request')
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-var mongo = require('./mongo.js')
-var connexion = require('./connexion.js');
+var mongo = require('./librairies/mongo.js')
+var connexion = require('./librairiesconnexion.js');
 var request = require('request');
 var EventSource = require('eventsource');
 
