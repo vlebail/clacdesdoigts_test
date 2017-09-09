@@ -13,6 +13,8 @@
     "eventsource": "^1.0.5",
     "express": "^4.15.4",
     "request": "^2.81.0",
-    "body-parser": "*"
+    "body-parser": "*",
+    "mongodb":"*",
+    "ngrok":"*"
   }
 }

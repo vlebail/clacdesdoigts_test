@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var mongo = require('./librairies/mongo.js')
-var connexion = require('./librairiesconnexion.js');
+var connexion = require('./librairies/connexion.js');
 var request = require('request');
 var EventSource = require('eventsource');
 
